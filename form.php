@@ -42,6 +42,7 @@
     <center>
         <button type="submit" name="submit">บันทึกข้อมูล</button>
         <button type="reset" name="reset">ล้างข้อมูล</button>
+        <br><a href="customerList.php">Back</a>
         </center>
     </form>
 </body>

@@ -48,14 +48,13 @@
             echo '<td>' .$rs["customerTel"].'</td>';
 
             echo '<td><a href="customerUpdate1.php?customerid='.$rs["customerid"].'">[แก้ไข]</a></td>';
+
            echo '<td><a href="customerDelete.php?customerid='.$rs["customerid"].'" onclick="return confirm(\'ยืนยันการลบข้อมูลลูกค้ารหัส'.$rs["customerid"].'\')">[ลบ]</a></td>';
            echo '</tr>';
 
         }
         echo'</table>';
         mysqli_close ($conn);
-
-
 
 
 ?>
